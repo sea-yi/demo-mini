@@ -1,0 +1,28 @@
+<view class="qrcodeView">
+ <image src="/images/@2x_2weima.png"></image>
+ <text>微信扫一扫关注我们</text>
+</view>
+
+<view class="companyView">
+  <view class="companyItemView">
+    <view>公司名称</view>
+    <view>河南十方心理咨询有限公司</view>
+  </view>
+  <view class="companyItemView">
+    <view>公司地址</view>
+    <view>河南自贸试验区郑州片区绿地新都会2号楼A座1007</view>
+  </view>
+  <view class="companyItemView">
+    <view>联系电话</view>
+    <view>0317-681056666</view>
+  </view>
+  <view class="companyItemView">
+    <view>客服邮箱</view>
+    <view>shifangxinli@163.com</view>
+  </view>
+  <image src="/images/@2x_about.png"></image>
+  <view class="companyItemView">
+    <view>公司简介</view>
+    <view>河南十方心理咨询有限公司</view>
+  </view>
+</view>

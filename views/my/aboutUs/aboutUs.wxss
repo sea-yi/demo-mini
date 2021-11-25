@@ -1,0 +1,37 @@
+.qrcodeView {
+  width: 300rpx;
+  margin:20rpx 225rpx 60rpx;
+  font-size: 26rpx;
+  text-align: center;
+}
+
+.qrcodeView > image {
+  width: 300rpx;
+  height: 300rpx;
+  padding-bottom: 10rpx;
+}
+
+.companyView {
+  padding: 0 40rpx;
+}
+
+.companyItemView {
+  padding-bottom: 30rpx;
+}
+
+.companyView > image {
+  width: 670rpx;
+  height: 500rpx;
+  margin-bottom: 40rpx;
+}
+
+.companyItemView > view:nth-child(1) {
+  color: #87cefa;
+  font-size: 30rpx;
+  padding-bottom: 20rpx;
+}
+
+.companyItemView > view:nth-child(2) {
+  color: #888;
+  font-size: 26rpx;
+}

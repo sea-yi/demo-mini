@@ -1,0 +1,47 @@
+<view class="userInfoView">
+  <view>昵称：少年先锋队员</view>
+  <view>来自：河南·郑州</view>
+  <view>积分：1080</view>
+</view>
+
+<view class="userItemListView">
+    <view class="userItemView">
+      <text>我的测评</text>
+      <view class="arrow"></view>
+    </view>
+    <view class="userItemView">
+      <text>我的咨询</text>
+      <view class="arrow"></view>
+    </view>
+    <view class="userItemView">
+      <text>我的回答</text>
+      <view class="arrow"></view>
+    </view>
+    <view class="userItemView">
+      <text>我的通知</text>
+      <view class="arrow"></view>
+    </view>
+    <view class="userItemView">
+      <text>课程收藏</text>
+      <view class="arrow"></view>
+    </view>
+</view>
+
+<view class="userItemListView">
+    <view class="userItemView">
+      <text>绑定手机</text>
+      <view class="arrow"></view>
+    </view>
+    <view class="userItemView">
+      <text>修改密码</text>
+      <view class="arrow"></view>
+    </view>
+    <view class="userItemView" bindtap="goAboutUs">
+      <text>关于我们</text>
+      <view class="arrow"></view>
+    </view>
+    <view class="userItemView">
+      <text>退出登录</text>
+      <view class="arrow"></view>
+    </view>
+</view>

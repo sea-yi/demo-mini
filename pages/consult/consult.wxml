@@ -1,0 +1,26 @@
+<!-- 筛选框 -->
+<view class="filterView">
+  <image src="/images/@2x_touch.png"></image>
+  <text>点击筛选</text>
+</view>
+
+<view class="consultListView">
+  <block wx:for="{{consultContent}}" wx:key="url">
+    <view class="consultView">
+      <view>
+        <image src="{{item.url}}"></image>
+      </view>
+      <view class="consultInfoView">
+        <view class="name">{{item.name}}</view>
+        <view class="job">{{item.job}}</view>
+        <view class="detail">{{item.detail}}</view>
+      </view>
+    </view>
+  </block>
+</view>
+
+<!-- 正在加载 -->
+<view class="loadingView">
+  <image src="/images/loading.gif"></image>
+  <text>正在加载更多数据</text>
+</view>

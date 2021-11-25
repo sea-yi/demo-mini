@@ -1,0 +1,124 @@
+/* pages/course/course.wxss */page {
+  background: #f0eff5;
+}
+
+.searchOutterView {
+  padding: 15rpx 15rpx;
+  background: #fff;
+}
+
+.searchInnerView {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 720rpx;
+  height: 58rpx;
+  line-height: 58rpx;
+  background: #eee;
+  border: 2rpx solid #ececec;
+  border-radius: 10rpx;
+}
+
+.searchInnerView > image {
+  width: 36rpx;
+  height: 36rpx;
+  margin-right: 10rpx;
+}
+
+.searchInnerView > text {
+  font-size: 24rpx;
+  color: #b2b2b2;
+}
+
+/* 小导航 */
+.smallNavView {
+  display: flex;
+}
+
+.smallNavInfoView {
+  height: 88rpx;
+  line-height: 88rpx;
+  background: #87cefa;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.smallNavInfoView > image {
+  width: 44rpx;
+  height: 44rpx;
+  margin-right: 10rpx;
+}
+
+.smallNavInfoView > text {
+  font-size: 30rpx;
+  color: #fff;
+}
+
+.smallNavInfoView:nth-child(2) {
+  border-right: 2rpx solid #fff;
+  border-left: 2rpx solid #fff;
+}
+
+/* 轮播图 */
+swiper {
+  height: 400rpx;
+}
+
+swiper image {
+  width: 750rpx;
+  height: 400rpx;
+}
+
+/* 热门课程 */
+.hotCourseView {
+  padding: 0 20rpx;
+}
+
+.hotCourseTitleView {
+  height: 108rpx;
+  line-height: 108rpx;
+  font-size: 30rpx;
+  text-align: center;
+  font-weight: bold;
+}
+
+.courseListView {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.courseListView image {
+  width: 346rpx;
+  height: 220rpx;
+}
+
+.courseView {
+  width: 346rpx;
+  margin-bottom: 40rpx;
+  text-align: center;
+}
+
+/* 查看更多 */
+.arrow {
+  width: 16rpx;
+  height: 16rpx;
+  border-top: 4rpx solid #999;
+  border-right: 4rpx solid #999;
+  transform: rotate(45deg);
+  position: absolute;
+  right: 30rpx;
+}
+
+.moreView {
+  display: flex;
+  align-items: center;
+  height: 88rpx;
+  line-height: 88rpx;
+  font-size: 28rpx;
+  color:#a6a6a6;
+}

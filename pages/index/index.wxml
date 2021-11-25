@@ -1,0 +1,60 @@
+<!-- 搜索框 -->
+<view class="searchOutterView">
+  <view class="searchInnerView">
+    <image src="/images/@2x_find.png"></image>
+    <text>搜索</text>
+  </view>
+</view>
+
+<!-- 轮播图 -->
+<swiper interval="3500" duration="500" indicator-active-color="#fff" indicatorDots autoplay circular>
+  <block wx:for="{{imgUrls}}" wx:key="*this">
+    <swiper-item>
+      <image src="{{item}}"></image>
+    </swiper-item>
+  </block>
+</swiper>
+
+<!-- 导航菜单 -->
+<view class="navView">
+  <block wx:for="{{menuImg}}">
+    <view class="navItemView">
+      <image src="{{item.url}}"></image>
+      <text>{{item.name}}</text>
+    </view>
+  </block>
+</view>
+
+<!-- 在线客服 -->
+<view class="onLineView">
+  <image src="/images/@2x_zixunpeixun.png"></image>
+  <text>咨询助理在线客服</text>
+  <view class="arrow"></view>
+</view>
+
+<!-- 精选文章 -->
+<view class="hotArticleView">
+  <view class="hotArticleTitleView">精选文章</view>
+  <block wx:for="{{articleContent}}">
+    <view class="articleView">
+      <view>
+        <image src="{{item.url}}"></image>
+      </view>
+      <view class="articleContent">
+        <view class="articleTitle">{{item.title}}</view>
+        <view class="articleDesc">{{item.content}}</view>
+      </view>
+    </view>
+  </block>
+
+  <!-- 查看更多 -->
+  <view class="moreView" bindtap="goHotArticlePage">
+    <text>查看更多</text>
+    <view class="arrow"></view>
+  </view>
+</view>
+
+<!-- 请求回答 -->
+<view class="askView">
+  <image src="/images/@2x_fudong.png"></image>
+</view>

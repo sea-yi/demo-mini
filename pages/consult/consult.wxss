@@ -1,0 +1,71 @@
+.filterView {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: #87cefa;
+   height: 88rpx;
+}
+
+.filterView > image {
+  width: 48rpx;
+  height: 48rpx;
+  margin-right: 10rpx;
+}
+
+.filterView > text {
+  font-size: 30rpx;
+  color: #fff;
+}
+
+.consultListView {
+  padding: 0 10rpx;
+}
+
+.consultView {
+  padding: 10rpx 0;
+  border-bottom: 1rpx solid #f1f1f1;
+  display: flex;
+}
+
+.consultView image {
+  width: 180rpx;
+  height: 180rpx;
+  margin-right: 10rpx;
+}
+
+
+.name {
+  font-size: 34rpx;
+  font-weight: bold;
+  line-height: 50rpx;
+}
+
+.job {
+  font-size: 30rpx;
+  color: #5e5e5e;
+  line-height: 50rpx;
+}
+
+.detail {
+  font-size: 24rpx;
+  color: #a9a9a9;
+  line-height: 40rpx;
+}
+
+.loadingView {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f0eff5;
+  height: 88rpx;
+}
+
+.loadingView > image{
+  height: 48rpx;
+  width: 48rpx;
+  margin-right: 10rpx;
+}
+
+.loadingView > text {
+  font-size: 28rpx;
+}

@@ -1,0 +1,122 @@
+<view class="consultInfoView">
+  <view>
+    <image src="/images/zxs01.jpg"></image>
+  </view>
+  <view>张婧</view>
+  <view>郑州市 国家二级心理咨询师</view>
+  <view class="certificateView">
+    <view>已认证</view>
+    <view>查看证书</view>
+  </view>
+</view>
+
+<!-- 擅长领域 -->
+<view class="domainView">
+  <view>恋爱关系</view>
+  <view>婚姻家庭</view>
+  <view>情绪管理</view>
+</view>
+
+<!-- 收费标准 -->
+<view class="consultItemView">
+  <view class="titleView">收费标准</view>
+  <view class="chargeItemView">
+    <view>语音咨询</view>
+    <view>18人已咨询</view>
+    <view>
+      <text>500</text>/次（1小时）
+    </view>
+  </view>
+  <view class="chargeItemView">
+    <view>视频咨询</view>
+    <view>18人已咨询</view>
+    <view>
+      <text>500</text>/次（1小时）
+    </view>
+  </view>
+  <view class="chargeItemView">
+    <view>倾诉咨询</view>
+    <view>18人已咨询</view>
+    <view>
+      <text>500</text>/次（1小时）
+    </view>
+  </view>
+
+  <!-- 查看更多 -->
+  <view class="moreView" bindtap="goHotArticlePage">
+    <text>查看更多</text>
+    <view class="arrow"></view>
+  </view>
+</view>
+
+<!-- 回复留言 -->
+<view class="consultItemView">
+  <view class="titleView">回复留言</view>
+  <view class="replyItemView">
+    <view>问：家庭矛盾，情绪抑郁，社交恐惧症，自卑，时长心慌不安，叭啦啦啦啦啦啦</view>
+    <view>
+      答：这里是咨询师回答的相关问题，第一，。。。这里是咨询师回答的相关问题，第一，。。。这里是咨询师回答的相关问题，第一，。。。这里是咨询师回答的相关问题，第一，。。。这里是咨询师回答的相关问题，第一，。。。这里是咨询师回答的相关问题，第一，。。。这里是咨询师回答的相关问题，第一，。。。这里是咨询师回答的相关问题，第一，。。。
+    </view>
+  </view>
+  <view class="replyItemView">
+    <view>问：家庭矛盾，情绪抑郁，社交恐惧症，自卑，时长心慌不安，叭啦啦啦啦啦啦</view>
+    <view>
+      答：这里是咨询师回答的相关问题，第一，。。。这里是咨询师回答的相关问题，第一，。。。这里是咨询师回答的相关问题，第一，。。。这里是咨询师回答的相关问题，第一，。。。这里是咨询师回答的相关问题，第一，。。。这里是咨询师回答的相关问题，第一，。。。这里是咨询师回答的相关问题，第一，。。。这里是咨询师回答的相关问题，第一，。。。
+    </view>
+  </view>
+  <view class="replyItemView">
+    <view>问：家庭矛盾，情绪抑郁，社交恐惧症，自卑，时长心慌不安，叭啦啦啦啦啦啦</view>
+    <view>
+      答：这里是咨询师回答的相关问题，第一，。。。这里是咨询师回答的相关问题，第一，。。。这里是咨询师回答的相关问题，第一，。。。这里是咨询师回答的相关问题，第一，。。。这里是咨询师回答的相关问题，第一，。。。这里是咨询师回答的相关问题，第一，。。。这里是咨询师回答的相关问题，第一，。。。这里是咨询师回答的相关问题，第一，。。。
+    </view>
+  </view>
+  <view class="replyItemView">
+    <view>问：家庭矛盾，情绪抑郁，社交恐惧症，自卑，时长心慌不安，叭啦啦啦啦啦啦</view>
+    <view>
+      答：这里是咨询师回答的相关问题，第一，。。。这里是咨询师回答的相关问题，第一，。。。这里是咨询师回答的相关问题，第一，。。。这里是咨询师回答的相关问题，第一，。。。这里是咨询师回答的相关问题，第一，。。。这里是咨询师回答的相关问题，第一，。。。这里是咨询师回答的相关问题，第一，。。。这里是咨询师回答的相关问题，第一，。。。
+    </view>
+  </view>
+
+  <!-- 查看更多 -->
+  <view class="moreView" bindtap="goHotArticlePage">
+    <text>查看更多</text>
+    <view class="arrow"></view>
+  </view>
+</view>
+
+<!-- 用户评价 -->
+<view class="consultItemView">
+  <view class="reviewView">用户评价</view>
+  <view class="reviewItemView">
+    <view>匿名用户</view>
+    <view>昨天</view>
+    <view>
+      老师很细心
+    </view>
+  </view>
+  <view class="reviewItemView">
+    <view>匿名用户</view>
+    <view>昨天</view>
+    <view>
+      老师很细心
+    </view>
+  </view>
+  <view class="reviewItemView">
+    <view>匿名用户</view>
+    <view>昨天</view>
+    <view>
+      老师很细心
+    </view>
+  </view>
+
+  <!-- 查看更多 -->
+  <view class="moreView" bindtap="goHotArticlePage">
+    <text>查看更多</text>
+    <view class="arrow"></view>
+  </view>
+</view>
+
+<view class="bottomView">
+  <view>发私信</view>
+  <view>咨询</view>
+</view>

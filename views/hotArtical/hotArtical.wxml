@@ -1,0 +1,20 @@
+<view class="hotArticleView">
+  <view class=""></view>
+  <block wx:for="{{articleContent}}">
+    <view class="articleView">
+      <view>
+        <image src="{{item.url}}"></image>
+      </view>
+      <view class="articleContent">
+        <view class="articleTitle">{{item.title}}</view>
+        <view class="articleDesc">{{item.content}}</view>
+      </view>
+    </view>
+  </block>
+</view>
+
+<!-- 正在加载 -->
+<view class="loadingView">
+  <image src="/images/loading.gif"></image>
+  <text>正在加载更多数据</text>
+</view>
